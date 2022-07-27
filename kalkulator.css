@@ -1,0 +1,147 @@
+body {
+    background-image: url(wallhaven-l3vd8q.jpg);
+    background-repeat: none;
+    background-size: 1550px;
+
+}
+.inputangka1 {
+    width: 300px;
+    height: 30px;
+    color: white;
+    border: 1px solid white;
+    background: rgba(0, 0, 0, 0.445) ;
+}
+.inputangka1:hover {
+    width: 350px;
+    height: 35px;
+    border: 1px solid #FF1493;
+    border: 2px solid #FF1493;
+    
+
+}
+.inputangka2 {
+    width: 300px;
+    height: 30px;
+    color: white;
+    border: 1px solid white;
+    background: rgba(0, 0, 0, 0.445) ;
+}
+.inputangka2:hover {
+    width: 350px;
+    height: 35px;
+    border: 1px solid #FF1493;
+    border: 2px solid #FF1493 ;
+}
+
+.inputhasil{
+    width: 250px;
+    height: 30px;
+    color: white;
+    border: 1px solid white;
+    background: rgba(0, 0, 0, 0.445) ;
+}
+.inputhasil:hover {
+    border: 1px solid #FF1493;
+    border: 2px solid #FF1493;
+}
+.abutton {
+    width: 30px;
+    height: 30px;
+    color: white;
+    border: 1px solid white;
+    background: rgba(0, 0, 0, 0.445) ;
+}
+.abutton:hover {
+    color: white;
+    background: #FF1493;
+    border: 2px solid whitesmoke;
+
+}
+.bbutton {
+    width: 30px;
+    height: 30px;
+    color: white;
+    border: 1px solid white;
+    background: rgba(0, 0, 0, 0.445) ;
+}
+.bbutton:hover {
+    color: white;
+    background: #FF1493;
+    border: 2px solid whitesmoke;
+
+}
+.cbutton {
+    width: 30px;
+    height: 30px;
+    color: white;
+    border: 1px solid white;
+    background: rgba(0, 0, 0, 0.445) ;
+}
+.cbutton:hover {
+    color: white;
+    background: #FF1493;
+    border: 2px solid whitesmoke;
+
+}
+.dbutton {
+    width: 30px;
+    height: 30px;
+    color: white;
+    border: 1px solid white;
+    background: rgba(0, 0, 0, 0.445) ;
+}
+.dbutton:hover {
+    color: white;
+    background: #FF1493;
+    border: 2px solid whitesmoke;
+
+}
+
+.panel {
+    position: absolute;
+    top: 20%;
+    left: 32%;
+    background: rgba(0, 0, 0, 0.575);
+    width: 500px;
+    height: 390px;
+    border: 2px solid white;
+
+}
+* {
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+}
+.delete1 {
+    width: 50px;
+    height: 34px;
+    color: white;
+    border: 1px solid white;
+    background: rgba(0, 0, 0, 0.445) ;
+}
+.delete1:hover {
+    color: white;
+    background: #FF1493;
+    width: 50px;
+    height: 37px;
+    border: 2px solid whitesmoke;
+}
+.delete2 {
+    width: 52px;
+    height: 34px;
+    color: white;
+    border: 1px solid white;
+    background: rgba(0, 0, 0, 0.445) ;
+}
+.delete2:hover {
+    color: white;
+    background: #FF1493;
+    width: 50px;
+    height: 37px;
+    border: 2px solid whitesmoke;
+}
+.panel:hover {
+    border: 2px solid #FF1493;
+
+}
+
+

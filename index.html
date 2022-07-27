@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Muh Wahyu ageng pambudi">
+    <title>kalkulator</title>
+    <link rel="stylesheet" href="kalkulator.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+        </style>
+</head>
+<body align="center">
+    <div class="background">
+        <div class="panel">
+           <h1>perhitungan kalkulator</h1><br>
+            <div class="content">
+                <div class="angka1">
+                    Angka 1
+                    <input style="position: relative;" class="inputangka1" id="variable1"  type="text">
+                    <button class="delete1" onclick="hapus1()" >Hapus</button>
+                </div> <br>
+                <div class="angka2">
+                    Angka 2 
+                    <input class="inputangka2" id="variable2" type="text">
+                    <button class="delete2" onclick="hapus2()" >Hapus</button>
+                </div>
+                <div class="hasil"><br>
+                    Hasil
+                    <input class="inputhasil" id="variablehasil" type="text">
+                </div>
+            </div>
+            <div class="operator"><br>
+                Operator <br><br>
+                <div class="button">
+                    <button class="abutton" onclick="tambah()" >+</button>
+                    <button class="bbutton" onclick="kurang()" >-</button>
+                    <button class="cbutton" onclick="kali()">x</button>
+                    <button class="dbutton" onclick="bagi()">/</button>
+                </div><br>
+            </div>
+            <div class="author">
+                <strong>By</strong> Muh wahyu ageng pambudi <br><br>
+            </div>
+        </div>
+    </div>
+    <script src="kalkulator.js" type="text/javascript" ></script>
+</body>
+</html>
